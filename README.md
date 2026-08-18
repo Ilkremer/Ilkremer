@@ -15,14 +15,10 @@ I enjoy working across the boundary between electrical engineering, software, an
 
 ## Technical Skills
 
-### Programming and HDL
+### Programming
 
 * C and C++
 * Python
-* MATLAB
-* HTML and CSS
-* SystemVerilog
-* Git and GitHub
 
 ### Embedded Systems and Electronics
 
