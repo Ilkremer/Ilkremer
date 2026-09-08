@@ -11,7 +11,7 @@ I enjoy working across the boundary between electrical engineering, software, an
 * Private Pilot
 * Experienced with embedded systems, electronics troubleshooting, Linux, CAD, and hardware integration
 * Currently developing my skills in FPGA design, SystemVerilog, digital logic, and computer architecture
-* Interested in embedded engineering, FPGA/ASIC development, avionics, robotics, and automation
+* Interested in embedded engineering, avionics, robotics, and automation
 
 ## Technical Skills
 
@@ -60,23 +60,6 @@ Planned features include:
 
 Repository documentation is in development.
 
-### FPGA and RTL Projects
-
-A growing collection of digital-logic and SystemVerilog projects developed while learning FPGA and ASIC design.
-
-Projects include or will include:
-
-* Adders and arithmetic circuits
-* Counters and registers
-* Finite-state machines
-* PWM generators
-* UART communication
-* SPI controllers
-* Self-checking testbenches
-* Simulation waveforms and verification results
-
-Repository documentation is in development.
-
 ### SmartFix Repairs Website
 
 A responsive static website developed for my electronics repair business. The site presents repair services, explains the customer process, and includes an online quote-request form.
@@ -116,8 +99,6 @@ Work includes:
 
 I am currently expanding my knowledge in:
 
-* SystemVerilog and RTL design
-* FPGA development workflows
 * Digital electronics
 * Embedded C and C++
 * Communication protocols
