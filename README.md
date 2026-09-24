@@ -43,22 +43,42 @@ I enjoy working across the boundary between electrical engineering, software, an
 * Oscilloscopes, multimeters, power supplies, and general laboratory equipment
 
 ## Featured Projects
+## Unix Compute Cluster
 
-### ESP32-C6 Smart Thermostat
+A hands-on homelab project focused on building a small Linux compute cluster from repurposed desktop hardware. The project is being used to develop practical experience with Linux system administration, networking, distributed computing, and cluster architecture while extending the useful life of older hardware.
 
-An embedded thermostat designed to add automatic temperature control to an air conditioner without built-in thermostat functionality.
+### Project Goals
 
-Planned features include:
+- Build a multi-node Linux compute cluster using repurposed desktop PCs
+- Configure centralized networking and reliable node-to-node communication
+- Learn Linux administration, SSH, permissions, shell configuration, and system management
+- Deploy **SLURM** for workload scheduling and resource management
+- Use **MPI** to experiment with parallel and distributed applications
+- Evaluate hardware upgrades based on performance, power consumption, and cost
+- Explore self-hosted services and local AI workloads on the cluster
 
-* Temperature sensing
-* Relay-based appliance control
-* Adjustable temperature setpoint
-* OLED user interface
-* Physical control buttons
-* Home Assistant integration
-* Hysteresis and fail-safe control logic
+### Hardware & Networking
 
-Repository documentation is in development.
+The cluster consists of several older desktop systems being upgraded with additional RAM, SSD storage, and second-generation Intel Core processors where practical.
+
+Networking experiments have also included a **Raspberry Pi CM4 running OpenWrt**, USB Ethernet/Wi-Fi adapters, router-to-switch configurations, and troubleshooting physical and link-layer connectivity issues. The final network architecture uses a dedicated Ethernet switch to provide a stable wired backbone between compute nodes.
+
+### Technologies
+
+`Linux` · `Debian` · `Bash` · `SSH` · `Git` · `OpenWrt` · `SLURM` · `MPI` · `TCP/IP` · `Ethernet`
+
+### Current Progress
+
+- Installed and configured Linux on cluster hardware
+- Established command-line administration and SSH workflows
+- Evaluated and sourced CPU, memory, storage, and networking upgrades
+- Configured and tested OpenWrt networking hardware
+- Diagnosed Ethernet link instability and isolated faulty networking equipment
+- Created a dedicated GitHub repository to document configuration, troubleshooting, and project development
+
+### Next Steps
+
+The next phase is to establish the permanent switched network, assign consistent node configurations, configure passwordless SSH, deploy SLURM, and begin benchmarking distributed workloads across the cluster.
 
 ### SmartFix Repairs Website
 
