@@ -43,11 +43,11 @@ I enjoy working across the boundary between electrical engineering, software, an
 * Oscilloscopes, multimeters, power supplies, and general laboratory equipment
 
 ## Featured Projects
-## Unix Compute Cluster
+### Unix Compute Cluster
 
 A hands-on homelab project focused on building a small Linux compute cluster from repurposed desktop hardware. The project is being used to develop practical experience with Linux system administration, networking, distributed computing, and cluster architecture while extending the useful life of older hardware.
 
-### Project Goals
+#### Project Goals
 
 - Build a multi-node Linux compute cluster using repurposed desktop PCs
 - Configure centralized networking and reliable node-to-node communication
@@ -57,17 +57,17 @@ A hands-on homelab project focused on building a small Linux compute cluster fro
 - Evaluate hardware upgrades based on performance, power consumption, and cost
 - Explore self-hosted services and local AI workloads on the cluster
 
-### Hardware & Networking
+#### Hardware & Networking
 
 The cluster consists of several older desktop systems being upgraded with additional RAM, SSD storage, and second-generation Intel Core processors where practical.
 
 Networking experiments have also included a **Raspberry Pi CM4 running OpenWrt**, USB Ethernet/Wi-Fi adapters, router-to-switch configurations, and troubleshooting physical and link-layer connectivity issues. The final network architecture uses a dedicated Ethernet switch to provide a stable wired backbone between compute nodes.
 
-### Technologies
+#### Technologies
 
 `Linux` · `Debian` · `Bash` · `SSH` · `Git` · `OpenWrt` · `SLURM` · `MPI` · `TCP/IP` · `Ethernet`
 
-### Current Progress
+#### Current Progress
 
 - Installed and configured Linux on cluster hardware
 - Established command-line administration and SSH workflows
@@ -76,7 +76,7 @@ Networking experiments have also included a **Raspberry Pi CM4 running OpenWrt**
 - Diagnosed Ethernet link instability and isolated faulty networking equipment
 - Created a dedicated GitHub repository to document configuration, troubleshooting, and project development
 
-### Next Steps
+#### Next Steps
 
 The next phase is to establish the permanent switched network, assign consistent node configurations, configure passwordless SSH, deploy SLURM, and begin benchmarking distributed workloads across the cluster.
 
