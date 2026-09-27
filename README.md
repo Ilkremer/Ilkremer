@@ -10,7 +10,6 @@ I enjoy working across the boundary between electrical engineering, software, an
 * Former Electrical Systems Intern at Blue Origin
 * Private Pilot
 * Experienced with embedded systems, electronics troubleshooting, Linux, CAD, and hardware integration
-* Currently developing my skills in FPGA design, SystemVerilog, digital logic, and computer architecture
 * Interested in embedded engineering, avionics, robotics, and automation
 
 ## Technical Skills
